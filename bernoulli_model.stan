@@ -8,6 +8,6 @@ parameters {
 }
 
 model {
-    p ~ beta(1, 1);          // Uniform prior
+    p ~ beta(5,5);          // Uniform prior
     y ~ bernoulli(p);        // Likelihood
 }
